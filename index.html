@@ -1,0 +1,1585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mehul Jariwala - Full Stack Engineer Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--
+    - EmailJS script
+  -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.png"
+              alt="Mehul Jariwala"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Mehul Jariwala">Mehul Jariwala</h1>
+
+            <p class="title" id="animated-title">Full Stack Engineer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:mjariwala98@gmail.com" class="contact-link"
+                  >mjariwala98@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+918866669302" class="contact-link"
+                  >+91 88666 69302</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Status</p>
+
+                <time datetime="2024-08-28"
+                  >Available for new opportunities</time
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Bangalore, India</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/mehul-jariwala"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/mehul-jariwala" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://x.com/mjariwala98" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm a Full Stack Engineer with 5+ years of experience delivering
+              scalable web applications and robust platform capabilities.
+              Currently working at IBM as a Senior Full Stack Experience
+              Engineer, I specialize in developing and maintaining large-scale
+              applications while driving improvements in observability and
+              performance. I have a proven record of optimizing high-traffic
+              services at IBM and Publicis Sapient, with expertise in leveraging
+              full stack skills to support critical systems and deliver
+              innovative solutions.
+            </p>
+
+            <p>
+              I'm passionate about building scalable applications using modern
+              technologies like React.js, Node.js, Python, and Java. My
+              experience spans across cloud platforms, DevOps practices, and
+              delivering exceptional user experiences. I'm always eager to take
+              on new challenges and contribute to innovative projects that make
+              a real impact.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What I Do</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg"
+                    alt="AI automation icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">AI & Automation</h4>
+
+                  <p class="service-item-text">
+                    Building intelligent workflows and AI-powered features using
+                    modern LLMs, agents, and automation tools.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="API development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    API Development & Integration
+                  </h4>
+
+                  <p class="service-item-text">
+                    Designing and integrating robust REST/GraphQL APIs for
+                    seamless system communication.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="data engineering icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Data Engineering & Analytics
+                  </h4>
+
+                  <p class="service-item-text">
+                    Designing pipelines, dashboards, and analytics to turn raw
+                    data into actionable insights.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg"
+                    alt="security icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Security & Performance Optimization
+                  </h4>
+
+                  <p class="service-item-text">
+                    Implementing secure coding practices, optimizing
+                    performance, and ensuring scalability under heavy loads.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="mentorship icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Mentorship & Collaboration
+                  </h4>
+
+                  <p class="service-item-text">
+                    Guiding teams, reviewing code, and fostering collaboration
+                    to deliver high-impact solutions.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg"
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Full-stack web development
+                  </h4>
+
+                  <p class="service-item-text">
+                    Building scalable web applications with modern technologies
+                    and best practices.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    UI/UX design & prototyping
+                  </h4>
+
+                  <p class="service-item-text">
+                    Creating intuitive user interfaces and interactive
+                    prototypes for better user experience.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Cloud infrastructure & DevOps
+                  </h4>
+
+                  <p class="service-item-text">
+                    Setting up and managing cloud infrastructure with CI/CD
+                    pipelines and automation.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Appreciation for good work</h3>
+
+            <div class="testimonials-slider-container">
+              <!-- Navigation Buttons -->
+              <button
+                class="slider-btn prev-btn"
+                id="prev-btn"
+                aria-label="Previous image"
+              >
+                <ion-icon name="chevron-back-outline"></ion-icon>
+              </button>
+              <button
+                class="slider-btn next-btn"
+                id="next-btn"
+                aria-label="Next image"
+              >
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+              </button>
+
+              <div class="testimonials-slider" id="testimonials-slider">
+                <div class="testimonials-slide">
+                  <div class="content-card image-card">
+                    <div class="image-container">
+                      <img
+                        src="./assets/images/home/1.png"
+                        alt="Team Achievement"
+                        class="slide-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="testimonials-slide">
+                  <div class="content-card image-card">
+                    <div class="image-container">
+                      <img
+                        src="./assets/images/home/2.png"
+                        alt="Team Achievement"
+                        class="slide-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="testimonials-slide">
+                  <div class="content-card image-card">
+                    <div class="image-container">
+                      <img
+                        src="./assets/images/home/3.png"
+                        alt="Team Achievement"
+                        class="slide-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="testimonials-slide">
+                  <div class="content-card image-card">
+                    <div class="image-container">
+                      <img
+                        src="./assets/images/home/4.png"
+                        alt="Team Achievement"
+                        class="slide-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="testimonials-slide">
+                  <div class="content-card image-card">
+                    <div class="image-container">
+                      <img
+                        src="./assets/images/home/5.png"
+                        alt="Team Achievement"
+                        class="slide-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="testimonials-slide">
+                  <div class="content-card image-card">
+                    <div class="image-container">
+                      <img
+                        src="./assets/images/home/6.png"
+                        alt="Team Achievement"
+                        class="slide-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="testimonials-slide">
+                  <div class="content-card image-card">
+                    <div class="image-container">
+                      <img
+                        src="./assets/images/home/7.png"
+                        alt="Team Achievement"
+                        class="slide-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="testimonials-slide">
+                  <div class="content-card image-card">
+                    <div class="image-container">
+                      <img
+                        src="./assets/images/home/4.png"
+                        alt="Team Achievement"
+                        class="slide-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="testimonials-slide">
+                  <div class="content-card image-card">
+                    <div class="image-container">
+                      <img
+                        src="./assets/images/home/8.png"
+                        alt="Team Achievement"
+                        class="slide-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="testimonials-slide">
+                  <div class="content-card image-card">
+                    <div class="image-container">
+                      <img
+                        src="./assets/images/home/9.png"
+                        alt="Team Achievement"
+                        class="slide-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="testimonials-slide">
+                  <div class="content-card image-card">
+                    <div class="image-container">
+                      <img
+                        src="./assets/images/home/10.png"
+                        alt="Team Achievement"
+                        class="slide-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="testimonials-slide">
+                  <div class="content-card image-card">
+                    <div class="image-container">
+                      <img
+                        src="./assets/images/home/11.png"
+                        alt="Team Achievement"
+                        class="slide-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slider-dots">
+                <span class="dot active" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+                <span class="dot" onclick="currentSlide(9)"></span>
+                <span class="dot" onclick="currentSlide(10)"></span>
+                <span class="dot" onclick="currentSlide(11)"></span>
+              </div>
+            </div>
+          </section>
+
+          <!--
+          - clients
+        -->
+
+          <section class="clients">
+            <h3 class="h3 clients-title">Companies I've Worked At</h3>
+
+            <div class="clients-container">
+              <ul class="clients-list">
+                <!-- First set of logos -->
+                <li class="clients-item">
+                  <a href="#">
+                    <img src="./assets/images/clients/1.png" alt="Client 1" />
+                  </a>
+                </li>
+                <li class="clients-item">
+                  <a href="#">
+                    <img src="./assets/images/clients/2.png" alt="Client 2" />
+                  </a>
+                </li>
+                <li class="clients-item">
+                  <a href="#">
+                    <img src="./assets/images/clients/3.png" alt="Client 3" />
+                  </a>
+                </li>
+                <li class="clients-item">
+                  <a href="#">
+                    <img src="./assets/images/clients/4.png" alt="Client 4" />
+                  </a>
+                </li>
+                <li class="clients-item">
+                  <a href="#">
+                    <img src="./assets/images/clients/5.png" alt="Client 5" />
+                  </a>
+                </li>
+                <li class="clients-item">
+                  <a href="#">
+                    <img src="./assets/images/clients/6.png" alt="Client 6" />
+                  </a>
+                </li>
+                <li class="clients-item">
+                  <a href="#">
+                    <img src="./assets/images/clients/7.png" alt="Client 6" />
+                  </a>
+                </li>
+                <li class="clients-item">
+                  <a href="#">
+                    <img src="./assets/images/clients/8.png" alt="Client 6" />
+                  </a>
+                </li>
+                <li class="clients-item">
+                  <a href="#">
+                    <img src="./assets/images/clients/9.png" alt="Client 6" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Senior Full Stack Experience Engineer - IBM
+                </h4>
+
+                <span>Dec 2024 — Present</span>
+
+                <p class="timeline-text">
+                  Led the development of an enterprise-grade, AI-powered
+                  customer analytics and automation platform, delivering
+                  scalable, real-time, and cloud-native solutions across AWS,
+                  Azure, and GCP.
+                </p>
+
+                <div class="timeline-project">
+                  <strong>Project:</strong> AI-Powered Customer Analytics
+                  Platform & Observability Dashboard – A cloud-native system
+                  that visualizes customer engagement, predicts user behavior,
+                  and automates intelligent workflows using advanced AI and LLM
+                  orchestration.
+                </div>
+
+                <div class="timeline-skills">
+                  <strong>Skills:</strong> React.js, Next.js, Tailwind CSS,
+                  Material-UI, D3.js, NodeJS, FastAPI, Python, JavaScript,
+                  Kafka, RabbitMQ, Docker, Kubernetes, Vercel AI, CosmosDB,
+                  Highcharts, DB2, Scikit-learn, TensorFlow, Hugging Face,
+                  LangGraph, LangChain, AutoGen, CrewAI, Prometheus, Grafana,
+                  ELK Stack, OpenTelemetry, DataDog, New Relic, OAuth, JWT
+                </div>
+
+                <div class="timeline-contributions">
+                  <strong>Key Contributions:</strong>
+                  <ul>
+                    <li>
+                      Designed and deployed scalable microservices with FastAPI
+                      and NodeJs using Docker and Kubernetes
+                    </li>
+                    <li>
+                      Built real-time and offline pipelines with Kafka,
+                      RabbitMQ, and Webhooks for event processing
+                    </li>
+                    <li>
+                      Developed interactive dashboards using React, Material-UI,
+                      D3.js to visualize customer insights
+                    </li>
+                    <li>
+                      Integrated AI models (Scikit-learn, TensorFlow) and
+                      fine-tuned LLMs using Hugging Face
+                    </li>
+                    <li>
+                      Orchestrated multi-agent AI systems via LangGraph,
+                      AutoGen, and CrewAI for intelligent workflows
+                    </li>
+                    <li>
+                      Created seamless user interfaces with Next.js, Tailwind
+                      CSS, and Vercel AI for LLM-backed UX
+                    </li>
+                    <li>
+                      Used CosmosDB and DB2 for fast, scalable session and data
+                      storage
+                    </li>
+                    <li>
+                      Implemented full observability with Prometheus, Grafana,
+                      OpenTelemetry, New Relic, and ELK
+                    </li>
+                    <li>
+                      Ensured system resilience with retries, fault-tolerance,
+                      and health monitoring at scale
+                    </li>
+                    <li>
+                      Collaborated across teams, reviewed code, and mentored
+                      junior engineers while promoting best practices in
+                      AI-first development
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Senior / Full Stack Experience Engineer - Publicis Sapient
+                </h4>
+
+                <span>Apr 2022 — Dec 2024</span>
+
+                <p class="timeline-text">
+                  Led full-stack development across global online grocery
+                  platforms and internal enterprise tools, focusing on
+                  scalability, real-time performance, and automation. Delivered
+                  high-impact features in logistics, mapping, CI/CD, and user
+                  management with modern frontend and backend frameworks.
+                </p>
+
+                <div class="timeline-project">
+                  <strong>Project:</strong> Omnichannel Grocery Platform &
+                  Identity Management System – Scalable ecommerce and admin
+                  systems deployed across UK, CEU, and APAC with integrations
+                  for delivery, location intelligence, and enterprise user
+                  management.
+                </div>
+
+                <div class="timeline-skills">
+                  <strong>Skills:</strong> React.js, Svelte, High charts,
+                  AngularJS, Redux, Material-UI, NestJS, Flask, FastAPI, Java,
+                  Python, Pandas, NumPy, Kafka, Selenium, PyTest, Google Maps
+                  API, Bing Maps API, MongoDB, Node.js, Webpack, Micro Frontend,
+                  Core Java, MEAN stack, Splunk, New Relic, Grafana
+                </div>
+
+                <div class="timeline-contributions">
+                  <strong>Key Contributions:</strong>
+                  <ul>
+                    <li>
+                      Built and scaled grocery shopping platforms for UK, CEU,
+                      and APAC, ensuring smooth backend integrations
+                    </li>
+                    <li>
+                      Developed a lightweight delivery system in Thailand using
+                      Java, NestJS, and Kafka, improving delivery speed
+                    </li>
+                    <li>
+                      Designed Python-based microservices with Flask and FastAPI
+                      for data handling and reporting
+                    </li>
+                    <li>
+                      Created real-time data pipelines using Pandas and NumPy
+                      for behavioral analytics
+                    </li>
+                    <li>
+                      Automated CI/CD workflows and test coverage with Python
+                      scripts, PyTest, and Selenium
+                    </li>
+                    <li>
+                      Integrated Google Maps and developed custom GIS tools to
+                      enhance geolocation and delivery features
+                    </li>
+                    <li>
+                      Engineered a high-performance Bing Maps booking module
+                      using React, Redux, and Svelte
+                    </li>
+                    <li>
+                      Built and maintained an Identity & Access Management
+                      platform with the MEAN stack
+                    </li>
+                    <li>
+                      Enhanced admin dashboards with compliance and reporting
+                      modules in React and Material-UI
+                    </li>
+                    <li>
+                      Developed an enterprise-grade Chrome extension for Single
+                      Sign-On (SSO) authentication
+                    </li>
+                    <li>
+                      Optimized the frontend setup using Webpack, React Hooks,
+                      and Micro Frontends for modular architecture
+                    </li>
+                    <li>
+                      Ensured system reliability and uptime with Splunk, New
+                      Relic, and Grafana monitoring under high load
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Senior Software Engineer / Founding Frontend Engineer - OKRs
+                  @Fitbots
+                </h4>
+
+                <span>Sep 2018 — Apr 2022</span>
+
+                <p class="timeline-text">
+                  Early engineering team member at a fast-growing OKR startup,
+                  leading front-end architecture for a modular, scalable
+                  Employee Self-Serve Portal. Played a pivotal role in designing
+                  a responsive, accessible, and component-driven UI framework
+                  used across 14+ core modules.
+                </p>
+
+                <div class="timeline-project">
+                  <strong>Project:</strong> Employee Self-Serve OKR Platform – A
+                  modular SaaS solution enabling organizations to align and
+                  track OKRs with performance insights and HR workflows.
+                </div>
+
+                <div class="timeline-skills">
+                  <strong>Skills:</strong> React.js, Next.js, High charts,
+                  Stencil JS, Tailwind CSS, HTML5, SCSS, JavaScript, Web
+                  Accessibility, Atomic Design, Agile, Jira, Git
+                </div>
+
+                <div class="timeline-contributions">
+                  <strong>Key Contributions:</strong>
+                  <ul>
+                    <li>
+                      Led front-end development of a 14+ module portal using
+                      React and Next.js, delivering a seamless user experience
+                    </li>
+                    <li>
+                      Built a modular component library using Stencil JS and
+                      Tailwind CSS following Atomic Design principles
+                    </li>
+                    <li>
+                      Implemented responsive layouts and accessibility-first
+                      interfaces using React, HTML/CSS, and SCSS
+                    </li>
+                    <li>
+                      Ensured cross-platform compatibility and reusability of
+                      components for long-term scalability
+                    </li>
+                    <li>
+                      Actively participated in Agile processes: daily standups,
+                      sprint planning, and retrospectives to drive continuous
+                      delivery
+                    </li>
+                    <li>
+                      Contributed to UX improvements and streamlined onboarding
+                      for enterprise clients through intuitive design
+                    </li>
+                    <li>
+                      Collaborated closely with founders, product, and design
+                      teams to shape core product experiences
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Master's in Computer Application – Jain University, Bangalore
+                </h4>
+
+                <span>2017 — 2019</span>
+
+                <p class="timeline-text">
+                  Advanced graduate program focusing on software engineering,
+                  distributed systems, and enterprise application development.
+                  Specialized in modern web technologies, database management
+                  systems, cloud computing architectures, and software project
+                  management methodologies. Completed comprehensive coursework
+                  in advanced algorithms, system design, mobile application
+                  development, and emerging technologies including AI/ML
+                  fundamentals.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Bachelor's in Computer Application – Bhagwan Mahavir College,
+                  Surat
+                </h4>
+
+                <span>2014 — 2017</span>
+
+                <p class="timeline-text">
+                  Comprehensive undergraduate program covering fundamental
+                  computer science concepts, programming languages, and software
+                  development principles. Studied core subjects including data
+                  structures and algorithms, object-oriented programming,
+                  database systems, computer networks, web development, and
+                  software engineering. Built a strong foundation in
+                  mathematics, statistics, and logical problem-solving skills
+                  essential for software development.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <div class="skills-list content-card">
+              <div class="skill-row">
+                <h4 class="h4 skill-category-title">Programming Languages</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">JavaScript</span>
+                  <span class="skill-tag">TypeScript</span>
+                  <span class="skill-tag">Python (FastAPI)</span>
+                  <span class="skill-tag">Java</span>
+                </div>
+              </div>
+
+              <div class="skill-row">
+                <h4 class="h4 skill-category-title">AI Stack</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">RAG</span>
+                  <span class="skill-tag">AI Agents</span>
+                  <span class="skill-tag">LangChain</span>
+                  <span class="skill-tag">LlamaIndex</span>
+                  <span class="skill-tag">AutoGen</span>
+                  <span class="skill-tag">CrewAI</span>
+                  <span class="skill-tag">N8n</span>
+                  <span class="skill-tag">LLM Training</span>
+                  <span class="skill-tag">Pinacode</span>
+                  <span class="skill-tag">Temporal</span>
+                  <span class="skill-tag">Mistral OCR</span>
+                  <span class="skill-tag">Hugging Face</span>
+                </div>
+              </div>
+
+              <div class="skill-row">
+                <h4 class="h4 skill-category-title">Databases</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">MySQL</span>
+                  <span class="skill-tag">MongoDB</span>
+                  <span class="skill-tag">AWS DynamoDB</span>
+                  <span class="skill-tag">CouchDB</span>
+                </div>
+              </div>
+
+              <div class="skill-row">
+                <h4 class="h4 skill-category-title">Frameworks & Libraries</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">React.js</span>
+                  <span class="skill-tag">Next.js</span>
+                  <span class="skill-tag">AngularJS</span>
+                  <span class="skill-tag">Svelte</span>
+                  <span class="skill-tag">Vue.js</span>
+                  <span class="skill-tag">Node.js</span>
+                  <span class="skill-tag">NestJS</span>
+                  <span class="skill-tag">GraphQL</span>
+                </div>
+              </div>
+
+              <div class="skill-row">
+                <h4 class="h4 skill-category-title">Tools & DevOps</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">Docker</span>
+                  <span class="skill-tag">Kubernetes</span>
+                  <span class="skill-tag"
+                    >CI/CD (GitHub Actions, GitLab CI)</span
+                  >
+                  <span class="skill-tag">Webpack</span>
+                  <span class="skill-tag">Gulp</span>
+                  <span class="skill-tag">Grunt</span>
+                  <span class="skill-tag">Rollup</span>
+                  <span class="skill-tag">Git</span>
+                  <span class="skill-tag">JIRA</span>
+                  <span class="skill-tag">Splunk</span>
+                  <span class="skill-tag">New Relic</span>
+                  <span class="skill-tag">Grafana</span>
+                </div>
+              </div>
+
+              <div class="skill-row">
+                <h4 class="h4 skill-category-title">CSS & UI Frameworks</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">Tailwind CSS</span>
+                  <span class="skill-tag">Material-UI</span>
+                  <span class="skill-tag">Bootstrap</span>
+                  <span class="skill-tag">Ant Design</span>
+                  <span class="skill-tag">High charts</span>
+                </div>
+              </div>
+
+              <div class="skill-row">
+                <h4 class="h4 skill-category-title">Testing</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">Jest</span>
+                  <span class="skill-tag">Cypress</span>
+                  <span class="skill-tag">Playwright</span>
+                </div>
+              </div>
+
+              <div class="skill-row">
+                <h4 class="h4 skill-category-title">
+                  Messaging & Event Systems
+                </h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">Kafka</span>
+                  <span class="skill-tag">RabbitMQ</span>
+                  <span class="skill-tag">Zookeeper</span>
+                </div>
+              </div>
+
+              <div class="skill-row">
+                <h4 class="h4 skill-category-title">Web Development</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">Micro frontends</span>
+                  <span class="skill-tag">Promises</span>
+                  <span class="skill-tag">RXJS</span>
+                  <span class="skill-tag">HTML5</span>
+                  <span class="skill-tag">CSS3</span>
+                  <span class="skill-tag">ES5–ES7</span>
+                  <span class="skill-tag">Web Accessibility Standards</span>
+                  <span class="skill-tag">Responsive Design</span>
+                  <span class="skill-tag">Cross-browser Compatibility</span>
+                </div>
+              </div>
+            </div>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web design</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-1.jpg"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Finance</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-2.png"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Orizon</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-3.jpg"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Fundo</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-4.png"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Brawlhalla</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-5.png"
+                      alt="dsm."
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">DSM.</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-6.png"
+                      alt="metaspark"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">MetaSpark</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-7.png"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Summary</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-8.jpg"
+                      alt="task manager"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Task Manager</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-9.png"
+                      alt="arrival"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Arrival</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list" id="blog-posts-list">
+              <!-- Blog posts will be dynamically loaded here -->
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Whitefield%20bangalore+(Mehul%20Jariwala)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form id="contact-form">
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send message</span>
+              </button>
+            </form>
+
+            <!-- Success/Error Messages -->
+            <div
+              id="form-messages"
+              style="
+                display: none;
+                margin-top: 20px;
+                padding: 15px;
+                border-radius: 8px;
+                text-align: center;
+              "
+            >
+              <div
+                id="success-message"
+                style="
+                  display: none;
+                  background-color: #d4edda;
+                  color: #155724;
+                  border: 1px solid #c3e6cb;
+                "
+              >
+                <strong>Success!</strong> Your message has been sent
+                successfully. I'll get back to you soon!
+              </div>
+              <div
+                id="error-message"
+                style="
+                  display: none;
+                  background-color: #f8d7da;
+                  color: #721c24;
+                  border: 1px solid #f5c6cb;
+                "
+              >
+                <strong>Error!</strong> There was a problem sending your
+                message. Please try again or contact me directly.
+              </div>
+            </div>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!-- Blog Modal -->
+    <div class="modal-container" data-blog-modal>
+      <div class="overlay" data-blog-modal-overlay></div>
+      <div class="testimonials-modal" data-blog-modal>
+        <button class="modal-close-btn" data-blog-modal-close>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <div class="blog-modal-content">
+          <div class="blog-modal-header">
+            <div class="blog-modal-meta">
+              <span class="blog-modal-category" data-blog-modal-category></span>
+              <span class="dot"></span>
+              <time data-blog-modal-date></time>
+            </div>
+            <h2 class="blog-modal-title" data-blog-modal-title></h2>
+          </div>
+
+          <div class="blog-modal-image" data-blog-modal-image>
+            <img src="" alt="" />
+          </div>
+
+          <div class="blog-modal-content-text" data-blog-modal-content></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Details Modal -->
+    <div class="modal-container" data-project-modal>
+      <div class="overlay" data-project-modal-overlay></div>
+      <div class="testimonials-modal" data-project-modal>
+        <button class="modal-close-btn" data-project-modal-close>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <div class="project-modal-content">
+          <div class="project-modal-header">
+            <div class="project-modal-image" data-project-modal-image>
+              <img src="" alt="" />
+            </div>
+            <div class="project-modal-info">
+              <h2 class="project-modal-title" data-project-modal-title></h2>
+              <p
+                class="project-modal-description"
+                data-project-modal-description
+              ></p>
+            </div>
+          </div>
+
+          <div class="project-modal-details">
+            <div class="project-detail-grid">
+              <div class="project-detail-item">
+                <h4 class="detail-label">Role</h4>
+                <p class="detail-value" data-project-modal-role></p>
+              </div>
+              <div class="project-detail-item">
+                <h4 class="detail-label">Team Size</h4>
+                <p class="detail-value" data-project-modal-team></p>
+              </div>
+              <div class="project-detail-item">
+                <h4 class="detail-label">Duration</h4>
+                <p class="detail-value" data-project-modal-duration></p>
+              </div>
+              <div class="project-detail-item">
+                <h4 class="detail-label">Category</h4>
+                <p class="detail-value" data-project-modal-category></p>
+              </div>
+            </div>
+
+            <div class="project-detail-section">
+              <h3 class="section-title">Tech Skills</h3>
+              <div
+                class="tech-skills-container"
+                data-project-modal-tech-skills
+              ></div>
+            </div>
+
+            <div class="project-detail-section">
+              <h3 class="section-title">My Involvement</h3>
+              <p class="project-involvement" data-project-modal-involvement></p>
+            </div>
+
+            <div class="project-detail-section">
+              <h3 class="section-title">Key Features</h3>
+              <ul class="features-list" data-project-modal-features></ul>
+            </div>
+
+            <div class="project-detail-section">
+              <h3 class="section-title">Challenges & Solutions</h3>
+              <ul class="challenges-list" data-project-modal-challenges></ul>
+            </div>
+
+            <div class="project-detail-section">
+              <h3 class="section-title">Results & Impact</h3>
+              <ul class="results-list" data-project-modal-results></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/js/project-data.js"></script>
+    <script src="./assets/js/blog-data.js"></script>
+    <script src="./assets/js/blog-data-2.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
